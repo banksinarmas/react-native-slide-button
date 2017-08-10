@@ -9,12 +9,12 @@ import {
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
+  Dimensions
 } from 'react-native';
 
 import { SlideButton, SlideDirection } from 'react-native-slide-button';
 
-var Dimensions = require('Dimensions');
 var SCREEN_WIDTH = Dimensions.get('window').width;
 
 const NORMAL_COLOR = '#0FACF3';
